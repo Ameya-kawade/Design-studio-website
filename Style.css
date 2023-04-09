@@ -1,0 +1,394 @@
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    position:fixed;
+    background-color: #04b0bd;
+    border-radius:50px;
+    top: 0;
+    z-index:1;
+   
+}
+.log{
+    position: absolute;
+    top: 10px;
+    left: 17px;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    border-radius: 25px;
+  }
+
+label.logo{
+    color: white;
+    /* color:#10c65f; */
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+   position: static;
+
+}
+
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+   
+
+}
+
+a:hover{
+    
+    background: #0FE05A;
+    transition: .5s;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+.hero{
+    position: relative;
+    background-image: linear-gradient(to right top, #0fe05a, #00d988, #00d1aa, #00c6be, #00b9c5);
+    height: 100%; 
+    width: 100%;
+    background-size: 300% 300%;
+    animation: color 6s ease-in-out infinite;
+}
+
+.headtitle{
+    position: absolute;
+    font-size: 60px;
+    font-weight:bolder;
+    top: 220px;
+    left: 200px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+
+    
+}
+
+.headbelow{
+    position: absolute;
+    top: 430px;
+    left: 200px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 25px;
+    
+}
+
+
+.work{
+    position: relative;
+    height: 1200px;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    /* background-image: linear-gradient(to bottom, #0fe05a, #00d988, #00d1aa, #00c6be, #00b9c5); */
+    background-image: linear-gradient(to left bottom, #0fe05a, #00d988, #00d1aa, #00c6be, #00b9c5);
+    background-size: 300% 300%;
+    animation: color 6s ease-in-out infinite;
+}
+
+.workimage{
+    height: 400px;
+    width: 300px;
+    
+}
+figcaption{
+    font-size: 30px;
+   color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.container1:hover{
+    transform: scale(1.1);
+}
+.container2:hover{
+    transform: scale(1.1);
+}
+.container3:hover{
+    transform: scale(1.1);
+}
+.container4:hover{
+    transform: scale(1.1);
+}
+.container5:hover{
+    transform: scale(1.1);
+}
+.container6:hover{
+    transform: scale(1.1);
+}
+
+
+.container1{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    height: 400px;
+    width: 300px;
+    transition: 1s;
+    
+    
+}
+
+.container2{
+    position: absolute;
+    top: 120px;
+    left: 500px;
+    height: 400px;
+    width: 300px;
+    transition: 1s;
+}
+
+.container3{
+    position: absolute;
+    top: 120px;
+    left: 900px;
+    height: 400px;
+    width: 300px;
+    transition: 1s;
+    
+   
+}
+
+.container4{
+    position: absolute;
+    top: 620px;
+    left: 100px;
+    height: 400px;
+    width: 300px;
+    transition: 1s;
+  
+}
+
+.container5{
+    position: absolute;
+    top: 620px;
+    left: 500px;
+    height: 400px;
+    width: 300px;
+    transition: 1s;
+}
+
+.container6{
+    position: absolute;
+    top: 620px;
+    left: 900px;
+    height: 400px;
+    width: 300px;
+    transition: 1s;
+}
+
+.headings{
+    
+    font-family: sans-serif;
+   
+    font-size: 50px;
+
+
+}
+
+.accent{
+    color: #00C6CF;
+}
+.Aboutus{
+    position: relative;
+    height: 1700px;;
+    width: 100%;
+    color: white;
+   /* background-color: #00dffc; */
+   background-image: linear-gradient(to left top, #0fe05a, #00d988, #00d1aa, #00c6be, #00b9c5);
+   font-family: sans-serif;
+   background-size: 300% 300%;
+   animation: color 6s ease-in-out infinite;
+}
+
+.topos{
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    font-size: 50px;
+    
+}
+
+.headabout{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.aboutdown{
+    position: absolute;
+    top: 210px;
+    left: 200px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.Testi{
+    position: relative;
+    height: 1700px;
+    width: 100%;
+    /* background-color: #1ff881; */
+    background-image: linear-gradient(to left bottom, #0fe05a, #00d988, #00d1aa, #00c6be, #00b9c5);
+    font-family: sans-serif;
+    color: white;
+    background-size: 300% 300%;
+    animation: color 6s ease-in-out infinite;
+}
+
+
+.aboutcon{
+    position: relative;
+}
+
+.Testitop{
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    font-size: 50px;
+}
+.Testicon{
+    font-size: 22px;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+.testiheadings{
+    font-weight: bolder;
+    font-size: 26px;
+
+}
+
+.testi1{
+    position: absolute;
+    text-align: left;
+    top: 240px;
+    height: 410px;
+    width: 700px;
+    left: 200px;
+    box-shadow: 10px 10px rgb(128, 133, 134);
+    background-color: #40cfda;
+    
+}
+
+.testi1:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.testi2{
+    position: absolute;
+    height: 200px;
+    width: 700px;
+    top: 750px;
+    left: 200px;
+    box-shadow: 10px 10px rgb(128, 133, 134);
+    background-color: #40cfda;
+}
+
+.testi2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+.testi3{
+    position: absolute;
+    height: 200px;
+    width: 700px;
+    top: 1000px;
+    left: 200px;
+    box-shadow: 10px 10px rgb(128, 133, 134);
+    background-color: #40cfda;
+}
+.testi3:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.contact{
+    height: 180px;
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(to left top, #0fe05a, #00d988, #00d1aa, #00c6be, #00b9c5);
+    font-family: 'Open Sans', sans-serif;
+    background-size: 300% 300%;
+    animation: color 6s ease-in-out infinite;
+}
+
+.co{
+    color: white;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    font-size: 25px;
+}
+
+.address{
+    position: absolute;
+    font-size: 25px;
+    top: 30px;
+    right: 30px;
+    color: white;
+}
+
+.phone{
+    position: absolute;
+    font-size: 25px;
+    top: 80px;
+    left: 30px;
+    color: white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
